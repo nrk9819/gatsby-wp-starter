@@ -1,0 +1,49 @@
+:root {
+    --red-primary: #fd506c;
+    --red-light: #fff4f4;
+    --gray-darkest: #2f2a2a;
+    --gray-dark: #5e5656;
+    --gray-light: #bbacac;
+    --gray-lightest: #efe8e8;
+
+    /*Font sizes*/
+    --fs-small: 1.8rem;
+    --fs-medium: 2.4rem;
+    --fs-large: 4.8rem;
+
+    /*Spacing*/
+    --space-16: 1.6rem;
+    --space-24: 2.4rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+html,
+body{
+    font-family: sans-serif;
+    color: var(--gray-darkest);
+}
+
+h1{
+    font-size: var(--fs-large);
+    letter-spacing: -1px;
+    line-height: 1.2;
+}
+
+p{
+    font-size: var(--fs-small);
+    line-height: 1.5;
+    margin-bottom: var(--fs-small);
+}
+
+a{
+    font-size: var(--fs-small);
+}
